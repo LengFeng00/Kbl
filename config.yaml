@@ -31,7 +31,7 @@ menu:
       weight: 4
 params:
   author: Fastbyte01
-  avatar: /images/me/avatar.jpeg
+  avatar: /images/me/avatar.png
   baidu_verification: ''
   bing_verification: ''
   cdn_url: ''
@@ -98,3 +98,8 @@ params:
   yandex_verification: ''
 author:
   name: Fastbyte01
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
