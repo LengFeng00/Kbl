@@ -1,0 +1,43 @@
+---
+title: R分享 | 配置GitHub及上传技巧
+author: Mr.Kan
+date: '2021-11-02'
+slug: r
+categories:
+  - 科研必备
+tags:
+  - R
+  - GitHub
+description: ~
+featured_image: ~
+---
+# R 配置GitHub环境
+
+第一次R语言链接GitHub时需要在Terminal中运行两行命令
+
+```bash
+git config --global user.name "LengFeng00" # GitHub的用户名
+git config --global user.email "15776501006@163.com" # 注册github的邮箱地址
+```
+
+然后再Console中运行：
+
+```R
+usethis::use_git() # 此时会重启Rstudio
+usethis::use_github()
+```
+
+关于上传文档：
+
+![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102224901501.png)
+
+当工作路径有新的文件改动或创建了新的文档文件时，会出现相应的文档，勾选然后再点击Commit
+
+![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102225330442.png)
+
+其中，上传GitHub需要科学上网：运行下面的命令可以帮助你
+
+```R
+Sys.setenv(https_proxy='http://127.0.0.1:7890', http_proxy='http://127.0.0.1:7890', all_proxy='socks5://127.0.0.1:7890')
+```
+
