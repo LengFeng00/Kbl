@@ -27,13 +27,17 @@ usethis::use_git() # 此时会重启Rstudio
 usethis::use_github()
 ```
 
-关于上传文档：
+### 关于上传文档：
 
 ![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102224901501.png)
 
 当工作路径有新的文件改动或创建了新的文档文件时，会出现相应的文档，勾选然后再点击Commit
 
 ![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102225330442.png)
+
+![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102225757127.png)
+
+![](https://cdn.jsdelivr.net/gh/LengFeng00/blog-imgbed/images/image-20211102225840121.png)
 
 其中，上传GitHub需要科学上网：运行下面的命令可以帮助你
 
